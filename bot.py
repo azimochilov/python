@@ -4,7 +4,8 @@ bot = telebot.TeleBot("7247467432:AAHrZsy2QLnjeyEJbkPlMb657fztHz-rGA0", parse_mo
 
 @bot.message_handler(commands=['start'])
 def send_welcome(message):
-	bot.reply_to(message, "Salam aleykum, Welcome home ? , koro do'ngmi?")
+	bot.reply_to(message, ""
+						  "elcome home ? , koro do'ngmi?")
 @bot.message_handler(func=lambda m: True)
 def echo_all(message):
 	msg = message.text
